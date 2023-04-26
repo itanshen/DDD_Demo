@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Users.WebApi")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Users.WebAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("Users.WebApi")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Users.WebApi")]
+[assembly: System.Reflection.AssemblyProductAttribute("Users.WebAPI")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Users.WebAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // 由 MSBuild WriteCodeFragment 类生成。

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrator\\source\\repos\\DDD_Demo\\Users.WebApi\\Users.WebAPI.csproj": {}
+    "C:\\Users\\Administrator\\source\\repos\\DDD_Demo\\Users.WebAPI\\Users.WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrator\\source\\repos\\DDD_Demo\\Users.WebApi\\Users.WebAPI.csproj": {
+    "C:\\Users\\Administrator\\source\\repos\\DDD_Demo\\Users.WebAPI\\Users.WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\DDD_Demo\\Users.WebApi\\Users.WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\DDD_Demo\\Users.WebAPI\\Users.WebAPI.csproj",
         "projectName": "Users.WebAPI",
-        "projectPath": "C:\\Users\\Administrator\\source\\repos\\DDD_Demo\\Users.WebApi\\Users.WebAPI.csproj",
+        "projectPath": "C:\\Users\\Administrator\\source\\repos\\DDD_Demo\\Users.WebAPI\\Users.WebAPI.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\source\\repos\\DDD_Demo\\Users.WebApi\\obj\\",
+        "outputPath": "C:\\Users\\Administrator\\source\\repos\\DDD_Demo\\Users.WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

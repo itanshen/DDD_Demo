@@ -230,11 +230,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\DDD_Demo\\Users.WebApi\\Users.WebApi.csproj",
-      "projectName": "Users.WebApi",
-      "projectPath": "C:\\Users\\Administrator\\source\\repos\\DDD_Demo\\Users.WebApi\\Users.WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\DDD_Demo\\Users.WebAPI\\Users.WebAPI.csproj",
+      "projectName": "Users.WebAPI",
+      "projectPath": "C:\\Users\\Administrator\\source\\repos\\DDD_Demo\\Users.WebAPI\\Users.WebAPI.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\source\\repos\\DDD_Demo\\Users.WebApi\\obj\\",
+      "outputPath": "C:\\Users\\Administrator\\source\\repos\\DDD_Demo\\Users.WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
