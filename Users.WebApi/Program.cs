@@ -1,3 +1,5 @@
+using Autofac;
+using Autofac.Extensions.DependencyInjection;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -15,10 +17,6 @@ namespace Users.WebAPI
 
             // Add services to the container.
 
-            builder.Services.AddControllers();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-            builder.Services.AddEndpointsApiExplorer();
-            builder.Services.AddSwaggerGen();
             builder.Services.AddDbContext<UserDbContext>(opt =>
             {
                 string connStr = builder.Configuration.GetConnectionString("Default");
@@ -40,10 +38,21 @@ namespace Users.WebAPI
             {
                 opt.Filters.Add<UnitOfWorkFilter>();
             });
-            builder.Services.AddScoped<UserDomainService>();
-            builder.Services.AddScoped<ISmsCodeSender, MockSmsCodeSender>();
-            builder.Services.AddScoped<IUserDomainRepository, UserDomainRepository>();
+            //builder.Services.AddScoped<UserDomainService>();
+            //builder.Services.AddScoped<ISmsCodeSender, MockSmsCodeSender>();
+            //builder.Services.AddScoped<IUserDomainRepository, UserDomainRepository>();
             builder.Services.AddMediatR(Assembly.GetExecutingAssembly());
+
+            builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
+            builder.Host.ConfigureContainer<ContainerBuilder>(builder =>
+            {
+                builder.RegisterModule(new AutoFacManager());
+            });
+
+            builder.Services.AddControllers();
+            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+            builder.Services.AddEndpointsApiExplorer();
+            builder.Services.AddSwaggerGen();
 
             var app = builder.Build();
 

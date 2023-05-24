@@ -199,6 +199,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "MediatR": {
               "target": "Package",
               "version": "[11.0.0, )"

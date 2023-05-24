@@ -96,3 +96,5 @@ C:\Users\Administrator\source\repos\DDD_Demo\Users.WebAPI\obj\Debug\net6.0\refin
 C:\Users\Administrator\source\repos\DDD_Demo\Users.WebAPI\obj\Debug\net6.0\Users.WebAPI.pdb
 C:\Users\Administrator\source\repos\DDD_Demo\Users.WebAPI\obj\Debug\net6.0\Users.WebAPI.genruntimeconfig.cache
 C:\Users\Administrator\source\repos\DDD_Demo\Users.WebAPI\obj\Debug\net6.0\ref\Users.WebAPI.dll
+C:\Users\Administrator\source\repos\DDD_Demo\Users.WebAPI\bin\Debug\net6.0\Autofac.dll
+C:\Users\Administrator\source\repos\DDD_Demo\Users.WebAPI\bin\Debug\net6.0\Autofac.Extensions.DependencyInjection.dll

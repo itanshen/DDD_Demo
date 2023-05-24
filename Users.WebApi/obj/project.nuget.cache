@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "tJR3tvvRpDw205X6WGE3JgALA4W+1xqCTNWcPhYOhHzEb74DDkJ89D0DqxfZfrvJzz2YMA3JcwhYthaN7ERO+w==",
+  "dgSpecHash": "9IovBWjK1BEonb4rlrR1ddplKzeu/VJhOddXpylPUp3a6eSJyK0JyMNAIVv65IX1kEAtlHkObC7bo8SGOM5IJQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Administrator\\source\\repos\\DDD_Demo\\Users.WebAPI\\Users.WebAPI.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,8 @@
     "C:\\Users\\Administrator\\.nuget\\packages\\asmresolver.dotnet\\4.11.2\\asmresolver.dotnet.4.11.2.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\asmresolver.pe\\4.11.2\\asmresolver.pe.4.11.2.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\asmresolver.pe.file\\4.11.2\\asmresolver.pe.file.4.11.2.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\autofac\\6.4.0\\autofac.6.4.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
